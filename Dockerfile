@@ -1,4 +1,4 @@
-FROM node:18-bullseye
+FROM node:20-bullseye
 
 RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
