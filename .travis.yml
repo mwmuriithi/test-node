@@ -6,6 +6,5 @@ addons:
       - docker-ce
 
 script:
-  - docker version
   - docker build -t tenabo/node .
   - docker images tenabo/node
