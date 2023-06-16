@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple node and express backend",
   "main": "index.js",
-  "repository": "github:mannyhenri/node-docker",
+  "repository": "github:mwmuriithi/node-docker",
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
