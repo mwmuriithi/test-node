@@ -1,6 +1,10 @@
 sudo: required
 services:
   - docker
+addons:
+  apt:
+    packages:
+      - docker-ce
 
 script:
   - docker build -t tenabo/node .
